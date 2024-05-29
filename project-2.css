@@ -1,0 +1,151 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif 'Times New Roman', Times, serif;
+}
+/* ............................section............ */
+section{
+  height: 98vh;
+  background-image: url("./images/image-background-color-5.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container-1{
+  display: flex;
+  position: absolute;
+  left: 300px;
+  top: 60px;
+  width: 60%;
+  box-shadow: 10px 10px 30px 10px rgba(66, 192, 209, 0.4);
+  
+
+}
+/* ..............................logo-side......................... */
+.logo-section{
+  width: 500px;
+  height: 90vh;
+  background-image: url("./images/pexels-pixelcop-2680270.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+/* .........................shape of haxagon.................................... */
+.haxagon-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.hexagon {
+  width: 200px;
+  height: 70px;
+  background-color: rgb(41, 40, 40);;
+  position: relative;
+  margin: 50px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 60px solid rgb(41, 40, 40);
+}
+
+.hexagon:after {
+  top: 100%;
+  border-top: 60px solid rgb(41, 40, 40);;
+}
+.inner-logo h3{
+  color: green;
+  position: absolute;
+  left: 50px;
+  top: -35px;
+}
+.inner-logo h2{
+  color: #fff;
+  position: absolute;
+  left: 50px;
+  top: -13px;
+  font-size: 29px;
+}
+.inner-logo h4{
+  color: green;
+  position: absolute;
+  left: 50px;
+  top: 21px;
+  font-size: 20px;
+}
+/* ..........................form-side...................... */
+.form-section{
+  width: 500px;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.756);
+}
+#form-heading{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+#form-paragraph{
+  color: green;
+  display: flex;
+  justify-content: center;
+}
+.label-form{
+  color: #c4c0c0;
+  margin-bottom: 1rem;
+
+}
+.label-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  margin-left: 2rem;
+  font-size: 18px;
+  
+
+}
+.label-form input{
+  margin-left: 30px;
+  width: 400px;
+  height: 30px;
+  font-size: 17px;
+  background-color: #f5f5f5;
+}
+.checkbox{
+  color: #fff;
+}
+.checkbox input{
+margin-left: 2rem;
+  }
+  .form-botton{
+    border: none;
+    background-color: rgb(0, 255, 255);
+    text-align: center;
+    padding: 10px;
+    width: 385px;
+    margin: 30px 2rem;
+    border-radius: 5px;
+
+  }
+  .form-botton a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  #log-in-para{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+  }
